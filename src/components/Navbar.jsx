@@ -7,12 +7,13 @@ const Navbar = () => (
   <Stack
     direction="row"
     alignItems="center"
-    pt={2}
+    p={2}
     sx={{
       position: "sticky",
-      background: "#000",
+      background: "#171b204a",
       top: 0,
       justifyContent: "space-between",
+      
     }}
   >
     <Link

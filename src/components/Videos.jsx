@@ -5,8 +5,8 @@ const Videos = ({ videos, direction }) => {
   // console.log(videos);
   return (
     <Stack
-      // direction={direction || "row"}
-      direction={"row"}
+      direction={direction || "row"}
+      // direction={"row"}
       flexWrap="wrap"
       justifyContent="center"
       alignItems="start"
