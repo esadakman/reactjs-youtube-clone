@@ -4,9 +4,7 @@
 
 Build a Youtube clone using ReactJS.
 
-## Description
-
-- Project aims to create a Youtube Clone.
+## Description 
 
 - In this project, I learn:
     - React functional components and their reusability
@@ -18,7 +16,7 @@ Build a Youtube clone using ReactJS.
 
 ## Project Link
 
-##### You can reach my project from [here !](https://api-tutorial-project.vercel.app/)
+##### You can reach my project from [here !](https://youtubeclonev2.vercel.app/)
 
 ### Built With
 
@@ -33,21 +31,32 @@ Build a Youtube clone using ReactJS.
 ### Project Skeleton
 
 ```
-random-user-react (folder)
+youtube_clone (folder)
 |
 |----readme.md
 SOLUTION
 ├── public
 │     ├── favicon.ico
 │     ├── index.html
+│     ├── logo.png
 │     └── robots.txt
 ├── src
 │    ├── components
-│    │        ├── AddTutorial.jsx
-│    │        ├── EditTutorials.jsx
-│    │        └── TutorialList.jsx
-│    ├── pages
-│    │     └── Home.jsx
+│    │        ├── ChannelCard.jsx
+│    │        ├── ChannelDetail.jsx
+│    │        ├── Feed.jsx
+│    │        ├── Loader.jsx
+│    │        ├── Navbar.jsx
+│    │        ├── SearchBar.jsx
+│    │        ├── SearchFeed.jsx
+│    │        ├── Sidebar.jsx
+│    │        ├── VideoCard.jsx
+│    │        ├── VideoDetail.jsx
+│    │        ├── Videos.jsx
+│    │        └── index.js
+│    ├── utils
+│    │     ├── fetchFromAPI.js.js
+│    │     └── constants.js.jsx
 │    ├── App.css
 │    ├── App.js
 │    └── index.js
@@ -69,4 +78,5 @@ $ npm start / yarn start
 
 ### Preview of the Project
 
- 
+![youtube_clone](https://user-images.githubusercontent.com/98649983/190121936-60434e18-8714-4073-8e01-38287d2bde56.gif)
+
