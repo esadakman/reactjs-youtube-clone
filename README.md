@@ -70,7 +70,7 @@ SOLUTION
 To run this project, install it locally using npm or yarn:
 
 ```
-$ git clone https://github.com/esadakman/youtube_clone.git
+$ git clone https://github.com/esadakman/reactjs-youtube-clone.git
 $ cd youtube_clone/
 $ npm install / yarn
 $ npm start / yarn start
